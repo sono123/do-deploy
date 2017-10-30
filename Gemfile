@@ -6,7 +6,7 @@ git_source(:github) do |repo_name|
 end
 
 # may need to isolate this into production only.
-gem 'capistrano-rbenv', '~> 2.1'
+# gem 'capistrano-rbenv', '~> 2.1'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.1.3'
@@ -50,6 +50,7 @@ group :development do
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
 
+  gem 'capistrano-rbenv', '~> 2.1'
   gem 'capistrano', '~> 3.7', '>= 3.7.1'
   gem 'capistrano-rails', '~> 1.2'
   gem 'capistrano-passenger', '~> 0.2.0'
